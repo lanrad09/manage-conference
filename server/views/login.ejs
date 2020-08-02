@@ -1,0 +1,39 @@
+<!doctype html>
+<% include common/head %>
+
+    <body>
+
+        <div class="header">
+            <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+                <a class="pure-menu-heading" href="">Conference API</a>
+
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+                    <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login</a></li>
+                    <li class="pure-menu-item"><a href="/signup" class="pure-menu-link">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h1> Login</h1>
+            <% if (message.length > 0) { %>
+                <div class="alert">
+                    <%= message %>
+                </div>
+                <% } %>
+                    <form action="/login" method="post" class="pure-form">
+                        <fieldset>
+                            <input id="email" class="pure-input-1" type="email" placeholder="Email Address" name="email" required>
+                            <input id="password" class="pure-input-1" type="password" placeholder="Password" name="password" required>
+                            <button type="submit" class="pure-button pure-buttonprimary">
+Submit</button>
+                            <p>Don't have an account?
+                                <a href="/signup">Signup</a> or go back to
+                                <a href="/">home</a>.</p>
+                        </fieldset>
+                    </form>
+        </div>
+        <% include common/footer %>
+    </body>
+
+    </html>

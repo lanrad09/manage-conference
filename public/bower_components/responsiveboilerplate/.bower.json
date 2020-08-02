@@ -1,0 +1,28 @@
+{
+  "name": "responsiveboilerplate",
+  "version": "2.3.4",
+  "main": "css/responsiveboilerplate.min.css",
+  "description": "A starting point to responsive web design, lightweight and fast!",
+  "license": "MIT",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    ".project",
+    ".DS_Store",
+    ".idea",
+    "node_modules/"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/newaeonweb/responsiveboilerplate",
+  "_release": "2.3.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.3.4",
+    "commit": "495dc45caa6900907e45e976879bce1c9e400aa2"
+  },
+  "_source": "https://github.com/newaeonweb/responsiveboilerplate.git",
+  "_target": "^2.3.4",
+  "_originalSource": "responsiveboilerplate",
+  "_direct": true
+}

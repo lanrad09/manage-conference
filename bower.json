@@ -1,0 +1,23 @@
+{
+  "name": "conference-api",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Olalekan Adebayo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purecss": "^2.0.3",
+    "responsiveboilerplate": "^2.3.4"
+  }
+}
